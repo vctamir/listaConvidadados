@@ -3,10 +3,18 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: azure;
+    font-family: sans-serif;
+}
+
 h1 {
     font-weight: lighter;
     text-align: center;
-    margin: 60px;
+    margin: 40px;
+    margin-bottom: 15px;
+    color: darkred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .formulario {
@@ -43,25 +51,57 @@ input {
     width: 60%;
     padding: 10px;
     border-radius: 5px;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
 }
 
-button {
+.buttonAdd {
     margin: auto;
     width: 60%;
     padding: 10px;
     border: 1px solid lightblue;
     background-color: lightblue;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+button span {
+    margin: auto 0px auto 0px;
+    font-weight: 900;
+    color: grey;
+    text-align: center;
+}
+
+.divRemover {
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border-color: wheat;
+    border-width: 1px;
+    border-style: solid;
+    justify-content: space-evenly;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.btnRemover {
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+.btnRemover img {
+    width: 35px;
 }
 
 section {
     margin: auto;
     width: 50%;
-}
-
-span {
-    margin-bottom: 5px;
-    padding: 10px;
 }
 
 
